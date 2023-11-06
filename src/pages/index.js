@@ -69,7 +69,7 @@ export default function Home(props) {
         {locationErrorMsg && <p>Something went wrong: {locationErrorMsg}</p>}
         {coffeeStoresError && <p>Something went wrong: {coffeeStoresError}</p>}
         <div className={styles.heroImage}>
-          <Image src="/static/hero-image.png " alt="lady drink coffee" width={700} height={400} />
+          <Image src="/static/hero-image.jpg " alt="lady drink coffee" width={700} height={400} />
         </div>
         {/* Coffee stores near me */}
         {coffeeStores.length > 0 && (
